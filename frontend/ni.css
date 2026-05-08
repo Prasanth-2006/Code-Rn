@@ -1,0 +1,72 @@
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  background: #060608;
+  min-height: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  overscroll-behavior: none;
+}
+
+.notfound-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #0f172a; /* dark bg */
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Image styling */
+.notfound-img {
+  max-width: 350px;
+  width: 100%;
+  margin-bottom: 20px;
+  animation: float 1.5s ease-in-out infinite alternate;
+}
+
+/* Floating animation */
+@keyframes float {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-20px);
+  }
+}
+
+/* Title */
+.title {
+  font-size: 80px;
+  margin: 10px 0;
+}
+
+/* Subtitle */
+.subtitle {
+  font-size: 18px;
+  margin-bottom: 20px;
+  opacity: 0.8;
+}
+
+/* Button */
+.home-btn {
+  padding: 10px 20px;
+  background: #22c55e;
+  color: #000;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.home-btn:hover {
+  background: #16a34a;
+  transform: scale(1.05);
+}
