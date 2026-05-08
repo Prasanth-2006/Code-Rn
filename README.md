@@ -9,6 +9,7 @@ Users can write code, authenticate using Google/GitHub/email login, and access a
 ## Features
 
 ### Authentication
+
 - Email & Password Authentication
 - Google Login (Firebase)
 - GitHub Login (Firebase)
@@ -16,6 +17,7 @@ Users can write code, authenticate using Google/GitHub/email login, and access a
 - Logout functionality
 
 ### Code Editor
+
 - Monaco Editor integration
 - Syntax highlighting
 - Real-time code editing
@@ -23,6 +25,7 @@ Users can write code, authenticate using Google/GitHub/email login, and access a
 - Dark themed UI
 
 ### Frontend
+
 - Modern animated UI
 - Responsive design
 - Custom navbar & footer
@@ -30,6 +33,7 @@ Users can write code, authenticate using Google/GitHub/email login, and access a
 - Smooth transitions & interactions
 
 ### Backend
+
 - Node.js + Express API
 - MongoDB database integration
 - User authentication APIs
@@ -41,6 +45,7 @@ Users can write code, authenticate using Google/GitHub/email login, and access a
 ## Tech Stack
 
 ### Frontend
+
 - React
 - Vite
 - Tailwind CSS
@@ -49,6 +54,7 @@ Users can write code, authenticate using Google/GitHub/email login, and access a
 - React Router DOM
 
 ### Backend
+
 - Node.js
 - Express.js
 - MongoDB
@@ -86,7 +92,7 @@ CodeRn/
 ### Clone Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/CodeRn.git
+git clone https://github.com/Prasanth-2006/Code-Rn.git
 cd CodeRn
 ```
 
@@ -139,10 +145,12 @@ npm run dev
 ## Firebase Setup
 
 Enable:
+
 - Google Authentication
 - GitHub Authentication
 
 Inside Firebase Console:
+
 - Add authorized domain
 - Configure OAuth providers
 
@@ -204,12 +212,15 @@ Add project screenshots here.
 ## Deployment
 
 Frontend:
+
 - Vercel / Netlify
 
 Backend:
+
 - Render / Railway
 
 Database:
+
 - MongoDB Atlas
 
 ---
